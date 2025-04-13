@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<ItemGroup>
+  <ProjectReference Include="..\..\shared\Shared.Logging\Shared.Logging.csproj" />
+  <ProjectReference Include="..\..\shared\Shared.LCBO\Shared.LCBO.csproj" />
+</ItemGroup>
+
 </Project>
