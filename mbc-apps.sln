@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4F52FD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageTokenManager", "shared\SageTokenManager\SageTokenManager.csproj", "{7D92F73D-8C4D-4FDB-8723-32CB205912A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubSpot.Client", "shared\HubSpot.Client\HubSpot.Client.csproj", "{F889B7E2-65C6-45DB-A8DA-E9143EAA9771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,10 +62,22 @@ Global
 		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x64.ActiveCfg = Release|Any CPU
-		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x64.Build.0 = Release|Any CPU
-		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x86.ActiveCfg = Release|Any CPU
-		{7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x86.Build.0 = Release|Any CPU
-	EndGlobalSection
+                {7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x64.Build.0 = Release|Any CPU
+                {7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x86.ActiveCfg = Release|Any CPU
+                {7D92F73D-8C4D-4FDB-8723-32CB205912A4}.Release|x86.Build.0 = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|x64.ActiveCfg = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|x64.Build.0 = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|x86.ActiveCfg = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Debug|x86.Build.0 = Debug|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|Any CPU.Build.0 = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|x64.ActiveCfg = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|x64.Build.0 = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|x86.ActiveCfg = Release|Any CPU
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771}.Release|x86.Build.0 = Release|Any CPU
+        EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -71,9 +85,10 @@ Global
 		{41A93810-D2B6-EAF3-239E-B9105A291DA4} = {1787FE1D-075E-9E68-7218-25F1BD1BBEAB}
 		{3677CB6F-8B4F-6123-3732-B56590824B50} = {41A93810-D2B6-EAF3-239E-B9105A291DA4}
 		{01E0AF8C-1817-DD2F-B2C5-921B1937A7CE} = {1787FE1D-075E-9E68-7218-25F1BD1BBEAB}
-		{5650A479-D86E-49CB-A02C-5E07A3A77218} = {01E0AF8C-1817-DD2F-B2C5-921B1937A7CE}
-		{7D92F73D-8C4D-4FDB-8723-32CB205912A4} = {4F52FD11-658E-A102-6CD3-7D7C16FFA15B}
-	EndGlobalSection
+                {5650A479-D86E-49CB-A02C-5E07A3A77218} = {01E0AF8C-1817-DD2F-B2C5-921B1937A7CE}
+                {7D92F73D-8C4D-4FDB-8723-32CB205912A4} = {4F52FD11-658E-A102-6CD3-7D7C16FFA15B}
+                {F889B7E2-65C6-45DB-A8DA-E9143EAA9771} = {4F52FD11-658E-A102-6CD3-7D7C16FFA15B}
+        EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A93EE81-1FD3-4B3E-84D8-1933CF9EBBEE}
 	EndGlobalSection
